@@ -10,3 +10,10 @@
         max-width: 100%;          /* Ensure image fits the page */
     }
   }
+
+  /* Default styles */
+#printed-image {
+    display: none;
+  }
+  
+    
