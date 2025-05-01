@@ -1,0 +1,12 @@
+/* Print-specific styles */
+@media print {
+    #root-container {
+        display: none !important;
+    }
+  
+    #printed-image {
+        display: block !important; /* Force image to display only during print */
+        margin: auto;             /* Optional: center the image */
+        max-width: 100%;          /* Ensure image fits the page */
+    }
+  }
