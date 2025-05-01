@@ -1,4 +1,4 @@
-# Print DOM as Image with Print-Specific CSS
+# Print Content of HTML without using Media Queries
 
 This small project captures part of a webpage as an image using `html2canvas` and `jsPdf`.
 
