@@ -6,7 +6,7 @@ This small project captures part of a webpage as an image using `html2canvas` an
 
 1. The HTML Structure
 
-`
+```
 <body>
     <div id="root-container">
         <!-- html content -->
@@ -18,11 +18,11 @@ This small project captures part of a webpage as an image using `html2canvas` an
      <!-- empty image element to hold converted image from DOM -->
     <img src="" alt="" id="printed-image" />
 </body>
-`
+```
 
 2. Convert HTML Content to Image
 
-`
+```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
@@ -73,11 +73,11 @@ function generateImage() {
     });
 }
 </script>  
-`
+```
 
 3. CSS for Print
 
-`
+```
 /* Default styles */
 #printed-image {
     display: none;
@@ -95,4 +95,4 @@ function generateImage() {
         max-width: 100%;          /* Ensure image fits the page */
     }
 }
-`
+```
