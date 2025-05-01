@@ -70,6 +70,7 @@ function generateImage() {
         pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
 
         $('#printed-image').prop('src', imgData)
+        
     });
 }
 </script>  
