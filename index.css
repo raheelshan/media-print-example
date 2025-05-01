@@ -124,8 +124,8 @@ h1 {
     display: block;
     margin: 0 auto;
     margin-bottom: 0.5cm;
-    -webkit-print-color-adjust: exact;   /* Added */
-    print-color-adjust: exact;           /* Added */
+    /* -webkit-print-color-adjust: exact;   */
+    /* print-color-adjust: exact;         */
   }
   
   page[size="A4"] {  
